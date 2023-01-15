@@ -192,7 +192,7 @@ main {
 .resume-content {
     display: flex;
     gap: 24px;
-    
+
 }
 
 .section-title {
@@ -225,7 +225,46 @@ main {
     margin-bottom: 30px;
 }
 
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
 }
+
+/* Contacts */
+.contact {
+    display: flex;
+    gap: 120px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact .contact-title {
+    text-align: left;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea 
+{
+    margin-bottom: 24px;
+    border: 0px;
+    padding: 18px 30px;
+    width: 100%;
+
+}
+
+input {
+    height: 60px;
+}
+
